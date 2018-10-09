@@ -1,6 +1,0 @@
-<response>
-	<error code="0"/>
-		<channel rtmp="rtmp://52.52.52.52:9000/live" stream="1mtqywr" type="adobe" username="username" password="password">
-			<title text="Football match - Orange vs Blue" language="EN"/>
-		</channel>
-</response>
