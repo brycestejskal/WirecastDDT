@@ -1,7 +1,7 @@
 <destination>
 	<branding>
 		<logo location="destination" image="https://highschoolzoom.com/assets/logo-bc741716e402af5fadf35912264db845e355d56ef83ff285c6f306eb64699157.png" click="https://highschoolzoom.com">
-			<title text="Football match - Orange vs Blue" language="EN"/>
+			<title text="HighSchoolZoom" language="EN"/>
 		</logo>
 	</branding>
 	<channel_discovery_service url="https://raw.githubusercontent.com/bumbalard/WirecastDDT/master/2_response.xml" />
