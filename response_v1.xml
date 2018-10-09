@@ -1,0 +1,14 @@
+<destination>
+	<error code="0"/>
+	<branding>
+		<logo location="destination" image="https://highschoolzoom.com/assets/logo-bc741716e402af5fadf35912264db845e355d56ef83ff285c6f306eb64699157.png" click="https://highschoolzoom.com">
+			<title text="HighSchoolZoom" language="EN"/>
+		</logo>
+	</branding>
+	<channel rtmp="rtmp://52.52.52.52:9000/live" stream="1mtqywr" type="adobe" username="username" password="password">
+	</channel>
+	<format allow_user_defined="true">
+		<title text="720p 16:9" language="EN"/>
+		<video type="flash" encoder="x264" profile="main" width="1280" height="720" fps="30" bitrate="2500" keyframe="60" X264_preset="7" x264_commandline="--nal-hrd cbr" key_frame_aligned="true" absolute_time_stamps="true" strict_cbr="true"/>
+	</format>
+</destination>
