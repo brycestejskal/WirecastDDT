@@ -18,7 +18,7 @@
 		</format>
 	</formats>
 	<gui show_channels="true" require_password="false">
-		<input name="StreamTokenID" required="true">
+		<input name="username" required="true">
 			<title text="Stream Token ID:" language="EN"/>
 		</input>
 	</gui>
