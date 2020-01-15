@@ -1,12 +1,25 @@
 <destination>
 	<branding>
-		<logo location="destination" image="https://highschoolzoom.com/assets/logo-bc741716e402af5fadf35912264db845e355d56ef83ff285c6f306eb64699157.png" click="https://highschoolzoom.com">
-			<title text="HighSchoolZoom" language="EN"/>
+		<logo location="destination" image="https://www.sermonaudio.com/images/sa-logo-150-2px.png" click="http://www.sermonaudio.com/webcastinfo">
+			<title text="SermonAudio.com Update Test" language="EN"/>
 		</logo>
 	</branding>
-	<channel_discovery_service url="https://raw.githubusercontent.com/bumbalard/WirecastDDT/master/2_response.xml" />
-	<format allow_user_defined="true">
-		<title text="720p 16:9" language="EN"/>
-		<video type="flash" encoder="x264" profile="main" width="1280" height="720" fps="30" bitrate="2500" keyframe="60" X264_preset="7" x264_commandline="--nal-hrd cbr" key_frame_aligned="true" absolute_time_stamps="true" strict_cbr="true"/>
-	</format>
+	<channel_discovery_service url="https://www.sermonaudio.com/wirecastcd_sa.asp"/>
+	<formats allow_user_defined="true">
+		<format>
+			<title text="HD - 1Mbps 1280x720 16:9" language="EN"/>
+			<video type="flash" encoder="H.264" profile="main" width="1280" height="720" fps="30" bitrate="1000" keyframe="60" key_frame_aligned="true" absolute_time_stamps="true" strict_cbr="true"/>
+			<audio encoder="aac" bitrate="64" samplerate="44100" channels="1"/>
+		</format>
+		<format>
+			<title text="LO - 300kbps 480x270 16:9" language="EN"/>
+			<video type="flash" encoder="H.264" profile="baseline" width="480" height="270" fps="30" bitrate="300" keyframe="60" key_frame_aligned="true" absolute_time_stamps="true" strict_cbr="true"/>
+			<audio encoder="aac" bitrate="64" samplerate="44100" channels="1"/>
+		</format>
+	</formats>
+	<gui show_channels="true" require_password="false">
+		<input name="StreamTokenID" required="true">
+			<title text="Stream Token ID:" language="EN"/>
+		</input>
+	</gui>
 </destination>
