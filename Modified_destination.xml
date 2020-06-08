@@ -1,0 +1,36 @@
+<destination>
+  <error code="0"/>
+      <branding>
+          <logo location="destination" image="https://s3.amazonaws.com/zoom-aws-bucket/zoom-logo.png" click="https://www.highschoolzoom.com/users/sign_in">
+                <title text="Bryce Test" language="EN"/>
+          </logo>
+      </branding>
+<channel_discovery_service url="https://www.highschoolzoom.com/channels.xml"/>
+  <formats>
+  <format allow_user_defined="false">
+      <title text="1080p 16:9 Zoom" language="EN"/>
+          <video type="flash" encoder="x264" profile="main" width="1920" height="1080" fps="30" bitrate="5000" keyframe="60" X264_preset="3"/>
+          <audio encoder="aac" bitrate="128" samplerate="48000" channels="2"/>
+  </format>
+    <format allow_user_defined="false">
+        <title text="720p 16:9 Zoom" language="EN"/>
+            <video type="flash" encoder="x264" profile="main" width="1280" height="720" fps="30" bitrate="3500" keyframe="60" X264_preset="3"/>
+            <audio encoder="aac" bitrate="128" samplerate="48000" channels="2"/>
+    </format>
+    <format allow_user_defined="false">
+        <title text="420p 16:9 Zoom" language="EN"/>
+            <video type="flash" encoder="x264" profile="main" width="858" height="480" fps="30" bitrate="1000" keyframe="60" X264_preset="3"/>
+            <audio encoder="aac" bitrate="128" samplerate="48000" channels="2"/>
+    </format>
+    <format allow_user_defined="false">
+        <title text="360p 16:9 Zoom" language="EN"/>
+            <video type="flash" encoder="x264" profile="main" width="480" height="360" fps="30" bitrate="750" keyframe="60" X264_preset="3"/>
+            <audio encoder="aac" bitrate="128" samplerate="48000" channels="2"/>
+    </format>
+    <format allow_user_defined="false">
+        <title text="144p 16:9 Zoom" language="EN"/>
+            <video type="flash" encoder="x264" profile="main" width="256" height="144" fps="30" bitrate="300" keyframe="60" X264_preset="3"/>
+            <audio encoder="aac" bitrate="128" samplerate="48000" channels="2"/>
+    </format>
+  </formats>
+</destination>
